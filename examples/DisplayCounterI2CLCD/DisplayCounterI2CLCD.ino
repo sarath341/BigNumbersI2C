@@ -26,6 +26,7 @@ BigNumbers bigNum(&lcd); // construct BigNumbers object, passing to it the name 
 
 void setup()
 {
+  //Wire.begin(); //Uncomment for ESP Boards
   lcd.begin(); // setup LCD rows and columns
   bigNum.begin(); // set up BigNumbers
   lcd.clear(); // clear display
